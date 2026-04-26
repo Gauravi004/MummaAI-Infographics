@@ -1,0 +1,150 @@
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Inter',system-ui,sans-serif}
+.page{background:#f8f7f4;min-height:100vh;padding:2rem;color:#1a1a2e}
+.top-badge{display:flex;align-items:center;justify-content:space-between;margin-bottom:1.5rem;flex-wrap:wrap;gap:10px}
+.badge{background:#1a1a2e;color:#fff;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:6px 14px;border-radius:20px}
+.unit-tag{font-size:11px;color:#888;font-weight:500;letter-spacing:0.04em}
+.main-title{font-size:22px;font-weight:700;color:#1a1a2e;letter-spacing:-0.5px;margin-bottom:4px}
+.main-title span{color:#f59e0b}
+.main-sub{font-size:12px;color:#888;margin-bottom:1.75rem}
+.grid-top{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}
+.card{background:#fff;border-radius:14px;padding:1.25rem;border:1px solid #e8e5de;box-shadow:0 2px 12px rgba(0,0,0,0.05)}
+.card-head{display:flex;align-items:center;gap:9px;margin-bottom:12px}
+.card-icon{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px;flex-shrink:0}
+.ci-purple{background:#ede9fe}.ci-blue{background:#dbeafe}.ci-amber{background:#fef3c7}.ci-green{background:#dcfce7}.ci-red{background:#fee2e2}
+.card-title{font-size:13px;font-weight:700;color:#1a1a2e;letter-spacing:-0.2px}
+.card-sub{font-size:10px;color:#999;text-transform:uppercase;letter-spacing:0.06em}
+.section-lbl{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.07em;color:#aaa;margin:10px 0 5px}
+.row-item{display:flex;align-items:flex-start;gap:8px;margin-bottom:6px;font-size:12px;color:#444;line-height:1.45}
+.dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;margin-top:4px}
+.d-purple{background:#7c3aed}.d-blue{background:#2563eb}.d-amber{background:#d97706}.d-green{background:#16a34a}.d-red{background:#dc2626}
+.law-chip{display:inline-block;background:#ede9fe;color:#5b21b6;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;margin-bottom:8px}
+.green-chip{display:inline-block;background:#dcfce7;color:#15803d;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;margin:2px 2px 2px 0}
+.red-chip{display:inline-block;background:#fee2e2;color:#b91c1c;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;margin:2px 2px 2px 0}
+.amber-chip{display:inline-block;background:#fef3c7;color:#92400e;font-size:10px;font-weight:600;padding:2px 8px;border-radius:10px;margin:2px 2px 2px 0}
+.divider{border:none;border-top:1px solid #eee;margin:10px 0}
+.flow-card{background:#fff;border-radius:14px;padding:1.25rem;border:1px solid #e8e5de;box-shadow:0 2px 12px rgba(0,0,0,0.05);margin-bottom:14px}
+.flow-title{font-size:13px;font-weight:700;color:#1a1a2e;margin-bottom:14px;display:flex;align-items:center;gap:8px}
+.flow-wrap{display:flex;align-items:center;flex-wrap:wrap;gap:6px}
+.flow-step{background:#f0f0f0;border-radius:8px;padding:8px 12px;font-size:11px;font-weight:600;color:#333;text-align:center;min-width:90px;line-height:1.4}
+.flow-step small{display:block;font-size:9.5px;font-weight:400;color:#888;margin-top:2px}
+.flow-arrow{color:#ccc;font-size:16px;font-weight:300}
+.fs-purple{background:#ede9fe;color:#5b21b6}
+.fs-blue{background:#dbeafe;color:#1d4ed8}
+.fs-green{background:#dcfce7;color:#15803d}
+.fs-amber{background:#fef3c7;color:#92400e}
+.fs-teal{background:#ccfbf1;color:#0f766e}
+.comp-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.comp-col{border-radius:10px;padding:12px}
+.comp-col.yes{background:#f0fdf4;border:1px solid #bbf7d0}
+.comp-col.no{background:#fff7f7;border:1px solid #fecaca}
+.comp-head{font-size:11px;font-weight:700;margin-bottom:8px;display:flex;align-items:center;gap:5px}
+.comp-head.yes{color:#15803d}.comp-head.no{color:#b91c1c}
+.comp-item{font-size:11.5px;color:#444;margin-bottom:5px;display:flex;align-items:flex-start;gap:6px;line-height:1.4}
+.footer-note{text-align:center;font-size:11px;color:#aaa;margin-top:1rem;font-style:italic}
+</style>
+<div class="page">
+
+<div class="top-badge">
+  <div class="badge">Intellectual Property Analysis</div>
+  <div class="unit-tag">SIT223 · Professional Development for Engineers · Week 9</div>
+</div>
+
+<div class="main-title">IP Rights applied to <span>Mumma AI</span></div>
+<div class="main-sub">Gauravi Mungia · A visual breakdown of how Australian IP law applies to a real student-built AI project</div>
+
+<!-- ROW 1: Infographic + Comparison -->
+<div class="grid-top">
+
+  <!-- INFOGRAPHIC CARD -->
+  <div class="card">
+    <div class="card-head">
+      <div class="card-icon ci-purple">⚖️</div>
+      <div>
+        <div class="card-title">IP Breakdown — Mumma AI</div>
+        <div class="card-sub">Copyright Act 1968 (Cth) applied</div>
+      </div>
+    </div>
+    <span class="law-chip">s.10 — Software = Literary Work</span>
+    <div class="row-item"><div class="dot d-purple"></div><div>Mumma AI's source code is <strong>automatically protected</strong> under Australian Copyright Act 1968 the moment it was written. No registration needed.</div></div>
+    <div class="divider"></div>
+    <span class="law-chip">s.35(1) — Who owns it?</span>
+    <div class="row-item"><div class="dot d-blue"></div><div>Built independently on personal laptop — <strong>Gauravi owns the copyright</strong>, not Deakin University. Students are not employees.</div></div>
+    <div class="divider"></div>
+    <span class="law-chip">Open Source Libraries</span>
+    <div style="margin-bottom:4px">
+      <span class="green-chip">MIT — Flask ✓</span>
+      <span class="green-chip">MIT — Pytest ✓</span>
+      <span class="amber-chip">Apache 2.0 — gTTS ⚠</span>
+      <span class="red-chip">GPL — check required !</span>
+    </div>
+    <div class="row-item" style="margin-top:6px"><div class="dot d-amber"></div><div>Apache 2.0 libraries require <strong>attribution in documentation</strong>. GPL libraries require open-sourcing if commercialised.</div></div>
+  </div>
+
+  <!-- COMPARISON CARD -->
+  <div class="card">
+    <div class="card-head">
+      <div class="card-icon ci-green">🔍</div>
+      <div>
+        <div class="card-title">What is protected vs what is not</div>
+        <div class="card-sub">Mumma AI — IP coverage map</div>
+      </div>
+    </div>
+    <div class="comp-grid">
+      <div class="comp-col yes">
+        <div class="comp-head yes">✅ Protected</div>
+        <div class="comp-item">✓ <span>Python source code (Jenkinsfile, app.py, Dockerfile)</span></div>
+        <div class="comp-item">✓ <span>Voice command logic and AI response flow</span></div>
+        <div class="comp-item">✓ <span>System architecture design</span></div>
+        <div class="comp-item">✓ <span>Project name "Mumma AI" (trademark possible)</span></div>
+        <div class="comp-item">✓ <span>Pipeline configuration (Jenkinsfile)</span></div>
+      </div>
+      <div class="comp-col no">
+        <div class="comp-head no">❌ Not Protected</div>
+        <div class="comp-item">✗ <span>The idea of a voice assistant (ideas not protected)</span></div>
+        <div class="comp-item">✗ <span>General concept of using Gemini API</span></div>
+        <div class="comp-item">✗ <span>Open source libraries used inside it</span></div>
+        <div class="comp-item">✗ <span>Common DevOps pipeline structure</span></div>
+        <div class="comp-item">✗ <span>Speech recognition concept itself</span></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ROW 2: Flowchart — How to protect Mumma AI -->
+<div class="flow-card">
+  <div class="flow-title">
+    <div class="card-icon ci-amber" style="width:28px;height:28px;font-size:13px">🛡️</div>
+    Flowchart — How to professionally protect Mumma AI
+  </div>
+  <div class="flow-wrap">
+    <div class="flow-step fs-purple">Code Written<small>Copyright auto-applies<br>s.10 Act 1968</small></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-blue">Add LICENSE file<small>MIT chosen —<br>GitHub repo</small></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-amber">Audit Dependencies<small>Run pip-licenses<br>check each lib</small></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-teal">Add Attribution<small>Apache 2.0 libs<br>credited in README</small></div>
+    <div class="flow-arrow">→</div>
+    <div class="flow-step fs-green">IP Secured ✓<small>Professional<br>standard met</small></div>
+  </div>
+  <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px">
+    <div style="background:#f8f7f4;border-radius:8px;padding:10px 12px;font-size:11.5px;color:#555;line-height:1.5">
+      <div style="font-weight:700;color:#1a1a2e;margin-bottom:3px">What I did ✓</div>
+      Pushed code to GitHub with commit history. Code is timestamped — this is legal proof of authorship date.
+    </div>
+    <div style="background:#f8f7f4;border-radius:8px;padding:10px 12px;font-size:11.5px;color:#555;line-height:1.5">
+      <div style="font-weight:700;color:#1a1a2e;margin-bottom:3px">What I would add ✓</div>
+      A LICENSE file (MIT) to the GitHub repo — currently missing. One file, 1 minute, makes IP legally explicit.
+    </div>
+    <div style="background:#f8f7f4;border-radius:8px;padding:10px 12px;font-size:11.5px;color:#555;line-height:1.5">
+      <div style="font-weight:700;color:#1a1a2e;margin-bottom:3px">Key learning ✓</div>
+      Copyright Act 1968 protects my code automatically — but professional practice means making it explicit.
+    </div>
+  </div>
+</div>
+
+<div class="footer-note">Visual prepared as an extra contribution to SIT223 · IP Rights applied to a real student-built AI project · Gauravi Mungia</div>
+</div>
